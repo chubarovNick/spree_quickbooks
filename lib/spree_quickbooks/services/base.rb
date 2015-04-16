@@ -2,7 +2,8 @@ module SpreeQuickbooks
   module Services
     class Base
       attr_reader :model_name, :quickbooks
-
+      class LookupValueNotFoundException < StandardError;
+      end
       def initialize(model_name)
         @model_name = model_name
         @quickbooks = create_access_service

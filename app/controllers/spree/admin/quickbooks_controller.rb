@@ -3,8 +3,8 @@ module Spree
     class QuickbooksController < BaseController
 
       def show
-      end
 
+      end
 
       def authenticate
         callback = oauth_callback_admin_quickbooks_url

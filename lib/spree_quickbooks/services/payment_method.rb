@@ -15,7 +15,7 @@ module SpreeQuickbooks
         elsif order['payments'] && order['payments'].first.is_a?(Hash)
           order['payments'].first['payment_method']
         else
-          'None'
+          'Check'
         end
       end
 

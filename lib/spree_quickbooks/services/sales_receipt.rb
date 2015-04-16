@@ -46,12 +46,14 @@ module SpreeQuickbooks
       sales_receipt.total = order['totals']['order']
 
       sales_receipt.placed_on = order['placed_on']
+      if order['shipping_address'] && order['billing_address']
+        sales_receipt.ship_address = ::SpreeQuickbooks::Services::Address.build order['shipping_address']
+        sales_receipt.bill_address = ::SpreeQuickbooks::Services::Address.build order['billing_address']
 
-      sales_receipt.ship_address = ::SpreeQuickbooks::Services::Address.build order['shipping_address']
-      sales_receipt.bill_address = ::SpreeQuickbooks::Services::Address.build order['billing_address']
+        sales_receipt.payment_method_id = payment_method_service.matching_payment.id
+        sales_receipt.customer_id = customer_service.find_or_create.id
+      end
 
-      sales_receipt.payment_method_id = payment_method_service.matching_payment.id
-      sales_receipt.customer_id = customer_service.find_or_create.id
 
       # Associated as both DepositAccountRef and IncomeAccountRef
       #

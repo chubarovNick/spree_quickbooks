@@ -10,5 +10,6 @@ module Spree
     preference :quickbooks_payment_method_name, :string
     preference :quickbooks_account_name, :string
     preference :quickbooks_deposit_to_account_name, :string
+    preference :mode, :string, default: 'test'
   end
 end
