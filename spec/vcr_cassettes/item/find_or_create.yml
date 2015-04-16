@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/item
+    body:
+      encoding: UTF-8
+      string: |-
+        <?xml version="1.0" encoding="utf-8"?>
+        <Item xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+        <Name>T-SHIRT-PUGS-RUUUUULEE</Name>
+        <UnitPrice>19.99</UnitPrice>
+        <Type>Inventory</Type>
+        <IncomeAccountRef/>
+        </Item>
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Content-Length:
+      - '220'
+      Authorization:
+      - OAuth oauth_body_hash="ZgsI%2Bj4wico%2F69IdX52o5xybHa0%3D", oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH",
+        oauth_nonce="7JIRNDhAJGfe0uFlRBrLUNXPYfYRkyQLBxixji6otU", oauth_signature="%2BNBeqP3Vi%2F6mD7LDd%2FkfN2BGZTo%3D",
+        oauth_signature_method="HMAC-SHA1", oauth_timestamp="1397761735", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:08:57 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '370'
+      Intuit-Tid:
+      - fecbab84-a417-468c-b5e5-29f2b1f7e3c3
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIVS207DMAz9lSrvbdrBtIu8IO6bNGCX9ANM6rGINq2adFr/
+        nnQCxgBBXqzjHJ9j2YaLfZEHO6qtLs2EJVHMAjKqzLR5mbBU3oVDFliHJsO8
+        NDRhLVl2IWBmXKPdimxVGkuBFzF2wrbOVWPOrdpSgZE+cCJVFnyjDRpFfHfG
+        AqcLr9OLk/MwPg+TgUx643g47g+iUX8YxoNxHDNv4KgIsrJA7dtaXj35Liqs
+        ra/cYG6pY2Qi6fWB+wjr1ihZvpIRMfAjgAdyeIMOBVzXhI6k9xY/rd9tgX9h
+        wRytS6vM4+y/su9U4EfjR/QJGa6ns5UMF+n9Olyl3Zvf3gI/fMKlcnpHwtUN
+        AX8HcNfkebtsMNcbTdmfKr9QQeIen3MSh2kB/4CQGu0WtVYkklE0GgE/JkC2
+        FYk11TuPfEmHYNHUaouWrkvruuGeYJA1qtela5/M1J/Ip9lp1q/IL7MLJ0cj
+        3gCTle+mfAIAAA==
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:08:58 GMT
+recorded_with: VCR 2.4.0

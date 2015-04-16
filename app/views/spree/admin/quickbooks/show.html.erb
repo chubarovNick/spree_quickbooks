@@ -1,0 +1,34 @@
+<% content_for :page_title do %>
+    <%= Spree.t(:quickbooks_settings) %>
+    <% unless false && SpreeQuickbooks::Config[:quickbooks_realm] %>
+        <ipp:connectToIntuit></ipp:connectToIntuit>
+    <% end %>
+<% end %>
+
+<% content_for :page_actions do %>
+    <li id="new_product_link">
+      <div>
+      </div>
+
+    </li>
+<% end %>
+<script type="text/javascript" src="https://appcenter.intuit.com/Content/IA/intuit.ipp.anywhere.js"></script>
+
+<script>
+    intuit.ipp.anywhere.setup({menuProxy: '/path/to/blue-dot', grantUrl: '<%= authenticate_admin_quickbooks_url %>'});
+</script>
+
+
+<div class="twelve columns">
+  <fieldset class="alpha twelve columns">
+    <legend>API Access</legend>
+    <% [:quickbooks_access_token, :quickbooks_access_secret, :quickbooks_realm].each do |key| %>
+        <div class="field">
+          <div><%= Spree.t(key) %>: <%= SpreeQuickbooks::Config[key] %> </div>
+        </div>
+    <% end %>
+  </fieldset>
+</div>
+
+
+

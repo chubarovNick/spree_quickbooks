@@ -1,0 +1,324 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/query?query=select%20*%20from%20Account%20where%20Name%20=%20'Sales%20of%20Product%20Income'%20STARTPOSITION%201%20MAXRESULTS%2020
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH", oauth_nonce="vmDZ1VgyWnlTSQRjujDTvVW3x1WAAz0ApjXklqk2NU",
+        oauth_signature="sqqFCsD33zby%2FH3S%2FjHwUk9aSy4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397763126", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:32:08 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '458'
+      Intuit-Tid:
+      - bcfd771f-6483-4435-836a-c7bfc9750d81
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIWTUW+bMBDHv4rldwKEbI2Q42pNVCnStjaFaM83OBqrxkbY
+        ROXb72Chadm0vSDf+Xd3//Md4va11uyMrVPWbHi8iDhDU9hSmecNP+b3wZoz
+        58GUoK3BDe/R8Vsp9sZ3yj+ha6xxyCiJcRt+8r5Jw9AVJ6xhoUZmUdg6rJQB
+        U2B4TjjzqqY8yyheBdEqiG/yeJkmyzRaL5L15yC6SaOIS3HosO3f8pOC1j9a
+        p/xvmZzV8Eq3nfZuMKX4UhS2M56VtgZFyOHugYQ30DoqVoF2SNC+lCsR0ldk
+        vSly+4JGRiK8GuIbetiBBym2LYLHnMRK0poEcRzEnwatqySNoyBak04RvqPE
+        V3D+2JRkl/8Lm6MivBb+DuTIQKNjtmKPrS27wrM9DaVGEY63Iut+XhqWY2/U
+        w9Uj7jut+0MHWlUKy3/n+wtLb+nVGaVvOwIuhthqcI6gAoYZyCc8oxnuZ/5p
+        EHnfoJyKvPdNAAke7VHZQ3XRNYuYILHt2haNvwM97NEwtJlnRvxQ/nR9Evdn
+        wBy4xBe0cxUzMKzo0SiaD8s8jcmxndUaWi6P2W7KNcLyTSydPmwt2R9/E/kL
+        Jl0IX24DAAA=
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:32:09 GMT
+- request:
+    method: get
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/query?query=select%20*%20from%20Account%20where%20Name%20=%20'Inventory%20Asset'%20STARTPOSITION%201%20MAXRESULTS%2020
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH", oauth_nonce="vpBq9uDTj9z28iw0tFspmmccPSOEEChcGWNJJ6nGs",
+        oauth_signature="Ejvo0hecOBUr0SAZjaZ0aGC9kXM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397763129", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:32:10 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '465'
+      Intuit-Tid:
+      - 127f5f62-b15e-4995-8c77-f52534b84f06
+      Content-Encoding:
+      - gzip
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAHVT227bMAz9FUHvvihO19RQVLQJCgTY1mVxsGfNVhqhsmRI
+        dFD//ejUzg3di6FDHR4eUjR//KgNOSgftLNzyuKUEmVLV2n7Nqfb4iWaURJA
+        2koaZ9WcdirQR8FXFloNv1VonA2KoIgNc7oHaPIkCeVe1TLWR05cujrZaStt
+        qZJDRgnoGnUmKZtG6TRi9wWb5NkkZ2nMsocovc/TlAq+bpXvTvrowMMvFzR8
+        2qSklh942xoIPRT8qSxda4FUrpYaKevnVzTeSB+w2E6aoJC0qsQ3nuCXbzpb
+        Fu5dWZHy5Az4DwVyKUEKvvBKgirQrECvWcRYxO56r9Msx3M6Q588uWDx7zLA
+        tqkQV2PaRYuTWT5ln+3x5JbKk3PhnxIDK3tQFpzvyFMICnhyjPJN+3doVBx7
+        Qu/nCH9pjenWrTR6p1X1tc4XHJwd6IMS4FsUHABfGBkCkkrZz1wM6TfRcexF
+        1yjxCnvlyaL1HkuO9S4JIxs9H/HJ3Ik23vBB5Vmafm9Exu7S+GGG9a/jN7w/
+        GvbngYT/pd3SBpUS921HrOzXc2s1vg3ZAD5RIEtnjPRUbDfLUetIFifjeLra
+        WMTXv4j4B3VCA7dqAwAA
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:32:10 GMT
+- request:
+    method: get
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/query?query=select%20*%20from%20Account%20where%20Name%20=%20'Cost%20of%20Goods%20Sold'%20STARTPOSITION%201%20MAXRESULTS%2020
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH", oauth_nonce="HD5vxdZmY6qysVTYa5E9SfjDMJIImUR92tYIPMTs",
+        oauth_signature="MASkbNHw7TXUOswct9kFm3mcKEc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397763130", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:32:13 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '461'
+      Intuit-Tid:
+      - d0ea6846-a829-4fc5-a471-70a4d184fa3f
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIVT72+bMBD9Vyx/J0BI1Qo5rlayTpXWbRlE++yBaawZG/ns
+        KPz3O1h+tKzTviC/87t3784Huz92mhykA2XNmqaLhBJpatso87Kmu+oxuqME
+        vDCN0NbINR0k0HvOnowPyn+X0FsDkqCIgTXde9/ncQz1XnZioSbOorZd3Coj
+        TC3jQ0aJVx3qLJN0FSWrKL2t0mWeLfM0W6RLDN3mSUI52wbphos+OnD+mwXl
+        /9ikpBNHvA3awwg5+1DXNhhPGtsJhZTtw1c03gsHWKwVGiSSnhp+w2L8snIw
+        dWV/ScMTFl8Be5ZebIQXnBVOCi8rNMvRaxalaZTejF5XWY7n5A59svgVi30W
+        4Hd9g7j5X9qcyuJr4S8CA4UFT2xLPlnbACmtblg8XbAy/Dz1yqe20P41wh6D
+        1sM2CK1aJZt/Sr1Dwwl6dZDcu4CaJ8AKLQCQVItx8vzjsZdmrDmLn8dfDf37
+        BV/fn8noe8Jl6HutJDzjOJzCngr7ApeUM4sVwTlp/IPQ4yqN7zaLzBg/lN9f
+        RwN/J8wJp/wa164lRoxbujMKn4iUHq0B2VithaN8V27OWhOZX8zi6c3iIn77
+        p/DfoT46VHEDAAA=
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:32:13 GMT
+- request:
+    method: get
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/query?query=select%20*%20from%20Item%20where%20Name%20=%20'Slide%20Away%20-%20Oasis'%20STARTPOSITION%201%20MAXRESULTS%2020
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH", oauth_nonce="13O9xde7KeXHbfgQEvApabOqsF7fURB6pvkCz15Yno",
+        oauth_signature="%2FFDTAqA4IZDXXWU194R6860NcOc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397763133", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:32:14 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '532'
+      Intuit-Tid:
+      - d9e5ec97-9c88-43a1-b900-7eea1b431142
+      Content-Encoding:
+      - gzip
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIVTYXPaMAz9Kz5/BycpHT1OuNe169a7bcCgP8BzxPA1sXO2
+        wsi/nwJtgXa7fXKe9GQ9K09wvasrscWYXPBTmQ8zKdDbUDr/ayofV/eDKykS
+        GV+aKnicyg6TvNbw4Kl19ANTE3xCwZf4NJUbomaiVLIbrM3Q7TlDG2q1dt54
+        i2p7IQW5mu8psnw0yEaDfLzKi8lFMclHw3F+OcjGkyyTGhYtxu71flYQaR6S
+        o4NMKWqz42xbUeohCyKsRRlq4zi/+Dhj1Y2JiTutTZWwZ5Q6L8ag+IRl5+0q
+        PKHXGagjgG9I5s6Q0XAb0RCuWKs+l1pcTUb5QSaoExZ8NYkem5Jx+b+yt1RQ
+        x8bfDQeWlStR3Pw2nRiImUkugdon4A6Tja7p56CXoUZRHgOCcEdiHaKgDYom
+        hrK1NAR1WgM3ltwWNcUWQT0DuG+rqlu0pnJrh+U/JfyFBiuzMz8r1Psxg3qB
+        8OgdzaOzqC9yUEcEq65B/eC36CnEjit6zIZin+CNtaH17Ku18Ka3ydJUmERY
+        i/nhNeLAk3rEP/JNiYZ5G+3GJLwNiXTBbc8C8GnXILvpXZM+2/f4HEKZxDJU
+        pdSXoN7ReXgpIb2rf32M2Oel/sCTPWfys6OxTwvqZv4Lb9Pz/N8E4fjJ4k/i
+        3GHZrwBb5MVYBRurn8FJgiFvAR9ny9OHz7ZV/wHoyQ299QMAAA==
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:32:15 GMT
+- request:
+    method: post
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/item
+    body:
+      encoding: UTF-8
+      string: |-
+        <?xml version="1.0" encoding="utf-8"?>
+        <Item xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+        <Id>127</Id>
+        <SyncToken>0</SyncToken>
+        <MetaData>
+        <CreateTime>2014-04-17T16:28:41-0300</CreateTime>
+        <LastUpdatedTime>2014-04-17T16:28:41-0300</LastUpdatedTime>
+        </MetaData>
+        <Name>Slide Away - Oasis</Name>
+        <Description>Shirt</Description>
+        <Active>true</Active>
+        <FullyQualifiedName>Slide Away - Oasis</FullyQualifiedName>
+        <Taxable>false</Taxable>
+        <UnitPrice>35.0</UnitPrice>
+        <Type>Inventory</Type>
+        <IncomeAccountRef>4</IncomeAccountRef>
+        <PurchaseCost>22.33</PurchaseCost>
+        <ExpenseAccountRef>5</ExpenseAccountRef>
+        <AssetAccountRef>6</AssetAccountRef>
+        <TrackQtyOnHand>true</TrackQtyOnHand>
+        <QtyOnHand>1.0</QtyOnHand>
+        <InvStartDate>2014-02-17</InvStartDate>
+        </Item>
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Content-Length:
+      - '763'
+      Authorization:
+      - OAuth oauth_body_hash="ghmL55cbF1NGOa9i2UFEmRv2U5U%3D", oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH",
+        oauth_nonce="Xh1GNdDAOba91BPwtMusj2j0ZciXOgPfhL9sFCfKDY", oauth_signature="PQlcVmi%2Bl1UB2M4CbQ8Cnshc4rM%3D",
+        oauth_signature_method="HMAC-SHA1", oauth_timestamp="1397763135", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:32:16 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '493'
+      Intuit-Tid:
+      - d7f4601b-f63b-40df-aa5f-89d006bfd525
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAHVT7XLaMBB8FY3+g7ChIcMcypCkaTPTFqjNAyjyUTSxJY8k
+        U/z2PZMQvtJf8t7taU93a7jbVSXbog/G2SlP+gPO0GpXGPtnylf5U++WsxCV
+        LVTpLE55i4HfSXi2sTHxN4ba2YCMLrFhyjcx1hMhgt5gpfpmz+lrV4m1scpq
+        FNshZ9FUdE86SEa9waiXjPMknQzTSXLTH48pNJ4MBpwEIlascJUy1Nbyfk5d
+        1MoHqlyrMmDHKGSSjkHQCVlrde5e0coExBHAT4zqUUUl4cGjipiTtjyXTm8n
+        o+RNFsQJC36oEFd1Qbj4pGzf8aHskgriKPxLUSArTYFs9le1rMfmKpgAYp+A
+        RwzamzrS+GW2MT6COA3BTEezRRl9gyDeATw1ZdkuG1WatcHivwqf0CBXO/VS
+        otxPEcQBwsqauPBGoxx+AXFEkLc1yme7RRudb6miw7R/WivOtHaNJRusmVXd
+        VjNVYmBuzRbeFY2O7I3H5Yj2dFEiYdF4vVEBH1yIMk37wyGIsxh83dVI/rrS
+        6bKdzDfnisAyVxZcUttXdJpfCBiv6j/ew/Z5Lm9ouOdMerlX+nUZ27n9Tv5/
+        X8FFEI6f5LyTOClkUflIJjhYJyXrdGM4SRAkn3fH2f8k/wFx6HwYlwMAAA==
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:32:17 GMT
+recorded_with: VCR 2.4.0

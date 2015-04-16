@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/item
+    body:
+      encoding: UTF-8
+      string: |-
+        <?xml version="1.0" encoding="utf-8"?>
+        <Item xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+        <Name>given</Name>
+        <Description>Something witty.</Description>
+        <UnitPrice>99.9</UnitPrice>
+        <Type>Inventory</Type>
+        </Item>
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Content-Length:
+      - '226'
+      Authorization:
+      - OAuth oauth_body_hash="N%2B37qwHy49K86wse4TEm7Q%2FlAlo%3D", oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH",
+        oauth_nonce="udBhIFsFXFQiJYkxYPrh72CYFjqa7bGvwsyFjCo2Iw", oauth_signature="EQoLNhXKPBo4mmgIodKghTuoFNA%3D",
+        oauth_signature_method="HMAC-SHA1", oauth_timestamp="1397748551", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 15:29:14 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '380'
+      Intuit-Tid:
+      - d41871dd-12ea-4f85-bf56-e781c40fa729
+      Content-Encoding:
+      - gzip
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIVS0W7bMAz8FUPvsew0Q5qAUbG1KDZgXZvF+QBWZhqhtmRI
+        dFr//Zi0W5KhQJ+oI4884ii4em2bbEcxueAXqswLlZG3oXb+aaHW1e3oUmWJ
+        0dfYBE8LNVBSVwZ+eO4d/6bUBZ8okyE+LdSWuZtrneyWWszdgZPb0OqN8+gt
+        6d2Fyti1MmdclJNRMRmV06q4nI9n8/JLXkymo2I6LwolAkxtVocWnay1/HYv
+        W3QYk3RusEm0Z9SmHF+AlgirwdsqPJM3BegjgDtivEFGA9eRkKkSbfOB9Jss
+        6BMW/MTE664WXH/W9j8V9FH4F0riye3Igz684YaSja5jcdysQku8FbOzF8c8
+        5KBPq/DVsnQajj2Bfgdw2zfNsOyxcRtH9en8DypQ4Ss+NmQOtoH+C2HtHT9E
+        Z8nMZvkM9BFDNXRkVhR3gqRjj+Chj3aLia5D4r3JZxiqiPZ5ycO9/y5f5Z/W
+        eVZOJUfdh7PPY/4Axs1s+YQCAAA=
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 15:29:15 GMT
+recorded_with: VCR 2.4.0

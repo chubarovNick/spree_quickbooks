@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/query?query=select%20*%20from%20Account%20where%20Name%20=%20'Sales%20of%20Product%20Income'%20STARTPOSITION%201%20MAXRESULTS%2020
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH", oauth_nonce="2ZA2MUFZ6GtbsJqECS3n8BtzhZvSFnyisxGEzNA6jII",
+        oauth_signature="gpUUHOeCKnKgXX9QUwdJYdJg%2BQU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397763499", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:38:21 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '458'
+      Intuit-Tid:
+      - f7768b12-847f-4532-a14d-ac96373ed515
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIWTUW+bMBDHv4rldwKEbI2Q42pNVCnStjaFaM83OBqrxkbY
+        ROXb72Chadm0vSDf+Xd3//Md4va11uyMrVPWbHi8iDhDU9hSmecNP+b3wZoz
+        58GUoK3BDe/R8Vsp9sZ3yj+ha6xxyCiJcRt+8r5Jw9AVJ6xhoUZmUdg6rJQB
+        U2B4TjjzqqY8yyheBdEqiG/yeJkm63QZL5Ll5yC6SaOIS3HosO3f8pOC1j9a
+        p/xvmZzV8Eq3nfZuMKX4UhS2M56VtgZFyOHugYQ30DoqVoF2SNC+lCsR0ldk
+        vSly+4JGRiK8GuIbetiBBym2LYLHnMRK0poEcRzEnwatqySNoyBak04RvqPE
+        V3D+2JRkl/8Lm6MivBb+DuTIQKNjtmKPrS27wrM9DaVGEY63Iut+XhqWY2/U
+        w9Uj7jut+0MHWlUKy3/n+wtLb+nVGaVvOwIuhthqcI6gAoYZyCc8oxnuZ/5p
+        EHnfoJyKvPdNAAke7VHZQ3XRNYuYILHt2haNvwM97NEwtJlnRvxQ/nR9Evdn
+        wBy4xBe0cxUzMKzo0SiaD8s8jcmxndUaWi6P2W7KNcLyTSydPmwt2R9/E/kL
+        4jrfYm4DAAA=
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:38:21 GMT
+- request:
+    method: get
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/query?query=select%20*%20from%20Item%20where%20Name%20=%20'sliiiiide%20awwaaaaaaay'%20STARTPOSITION%201%20MAXRESULTS%2020
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH", oauth_nonce="NmUOPzk5V3P4NyNeeOl6GPbrYVW51knD22a1Ei6Vo",
+        oauth_signature="CH%2FBOVCId1X%2Fg%2BcYRYR5hfYK3uw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1397763501", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:38:22 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '167'
+      Intuit-Tid:
+      - 9aab597e-d8e4-4c5a-b5b4-5baf2414f84c
+      Content-Encoding:
+      - gzip
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAFXNQQqDMBBA0auE2cckalEk0V2hyxZ7gKDTNmAmYqLU21cK
+        XXT/eV93bz+xDZfoAhlQmQSGNITR0dPAvT/zGlhMlkY7BUIDO0boWn2htLp0
+        wzgHisgOhKKBV0pzI0QcXuht5r5NNgQvHo4sDSi2Alhy/nByqUouS66qXuVN
+        UTd5kcmT4rJqpIRWX1dc9p8vWi3+j+0HakYL27kAAAA=
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:38:23 GMT
+- request:
+    method: post
+    uri: https://qb.sbfinance.intuit.com/v3/company/835973000/item
+    body:
+      encoding: UTF-8
+      string: |-
+        <?xml version="1.0" encoding="utf-8"?>
+        <Item xmlns="http://schema.intuit.com/finance/v3" sparse="false">
+        <Name>sliiiiide awwaaaaaaay</Name>
+        <Description>Shirt</Description>
+        <UnitPrice>35.0</UnitPrice>
+        <Type>Non Inventory</Type>
+        <IncomeAccountRef>4</IncomeAccountRef>
+        <PurchaseCost>22.33</PurchaseCost>
+        </Item>
+    headers:
+      Content-Type:
+      - application/xml
+      Accept:
+      - application/xml
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - OAuth gem v0.4.7
+      Content-Length:
+      - '309'
+      Authorization:
+      - OAuth oauth_body_hash="JOuPI3SecmX6DJr4ZNG1vgju91w%3D", oauth_consumer_key="qyprdcG20NCyjy5jd7tKal9ivdOcbH",
+        oauth_nonce="JtclFidtVvoriRGXVahCD0ilZI4JoqVxzgtNggFVg", oauth_signature="dBD1qiIdipW%2Flm4X6DSJe9AP8AI%3D",
+        oauth_signature_method="HMAC-SHA1", oauth_timestamp="1397763503", oauth_token="test",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 17 Apr 2014 19:38:25 GMT
+      Content-Type:
+      - application/xml;charset=UTF-8
+      Content-Length:
+      - '418'
+      Intuit-Tid:
+      - d0088e86-e33a-4810-9db5-0407265d3d22
+      Content-Encoding:
+      - gzip
+      Via:
+      - 1.1 ipp-gateway-.net
+      Qbo-Version:
+      - '72.190'
+      Cache-Control:
+      - max-age=0, no-cache, no-store, must-revalidate, private
+      Expires:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAIVS0W7bMAz8FcHvsWwnQYOAUdG1KDZgW5PF+QBWphehtmRI
+        clr//eikW5qiWPlCHHXkEeLB9UvbiAP5YJxdJXmaJYKsdpWxv1fJrryfLBIR
+        ItoKG2dplQwUkmsF32zsTfxFoXM2kOAhNqySfYzdUsqg99Riao6cVLtW1sai
+        1SQP00RE0/KcIstnk2w2ya/KvFhOF8tinuaL+SS7WmZZwgKRWlG5Fg2vtfny
+        wFt06AN31tgEGhmVyosFSM6wHawu3RNZlYE8A/hBEe8wooJbTxipZG31gfRJ
+        FuQbFnzHEHddxbj6rO09FeRZ+CdyITRmjIoEPj/jKQaQxze4o6C96SJfQG33
+        xkeQb0two6M5kIq+J5CvAO77phk2PTamNlT9T+QDJpT4go8NqeNfgvwLYWdN
+        XHujSU3nIM8IyqEjtSV/YMT8EbEH+LR0o7XrLVuhFhbHy26xoSBcLdbeVb2O
+        4sRL1Ixv9a5Fwbr3eo+Bbl2IqijS6RTkRQ1Kj/ppE4cH+5Vt+G/lyyqPZsOM
+        6cKY6g/Y+9aM4AIAAA==
+    http_version: 
+  recorded_at: Thu, 17 Apr 2014 19:38:25 GMT
+recorded_with: VCR 2.4.0
