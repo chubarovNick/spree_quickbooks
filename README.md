@@ -19,6 +19,15 @@ bundle
 bundle exec rails g spree_quickbooks:install
 ```
 
+Configuration
+
+```
+//spree.rb
+SpreeQuickbooks::Config[:quickbooks_key]= 'Your App key'
+SpreeQuickbooks::Config[:quickbooks_secret]= 'Your App secret key'
+# SpreeQuickbooks::Config[:quickbooks_secret] = 'production' when it production app
+```
+
 Testing
 -------
 
