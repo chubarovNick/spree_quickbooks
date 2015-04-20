@@ -1,7 +1,7 @@
 Spree::Variant.class_eval do
 
   before_save do
-    if changes[:sku].any?
+    if changes[:sku] && changes[:sku].any?
       update_variant
     end
   end
