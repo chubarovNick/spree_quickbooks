@@ -18,7 +18,8 @@ module SpreeQuickbooks
       def variant_to_item(varaint)
         {
             sku: varaint.sku,
-            description: varaint.product.description
+            description: varaint.product.description,
+            unit_price: varaint.price
         }
 
       end
