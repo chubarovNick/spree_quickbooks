@@ -12,9 +12,9 @@ module SpreeQuickbooks
         sku_was, new_sku = variant_changes
         item = service.find_by_sku(sku_was)
         if item
-          service.find_or_create_by_sku(new_sku)
-        else
           service.update(item, {name: new_sku})
+        else
+          service.find_or_create_by_sku(new_sku)
         end
       end
 
