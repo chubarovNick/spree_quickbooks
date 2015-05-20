@@ -14,7 +14,7 @@ module SpreeQuickbooks
         if item
           service.update(item, {name: new_sku})
         else
-          service.find_or_create_by_sku(new_sku)
+          service.find_or_create_by_sku({sku: new_sku})
         end
       end
 
