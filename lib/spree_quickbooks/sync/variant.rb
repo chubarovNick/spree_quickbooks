@@ -14,7 +14,9 @@ module SpreeQuickbooks
         if item
           service.update(item, {name: new_sku})
         else
-          service.find_or_create_by_sku({sku: new_sku})
+          account_service = SpreeQuickbooks::Services::Account.new
+          account = account_service.find_by_name('Inventory Asset')
+          service.find_or_create_by_sku({sku: new_sku}, account)
         end
       end
 
